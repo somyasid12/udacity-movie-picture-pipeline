@@ -15,7 +15,7 @@ RUN apk update && \
   && pip install pipenv
 
 RUN mkdir -p /var/www/app && mkdir /app
-
+ENV CFLAGS="-Wno-error=incompatible-pointer-types -Wno-error=implicit-function-declaration"
 COPY Pipfile* /app
 RUN cd /app && pipenv install --system --deploy
 
