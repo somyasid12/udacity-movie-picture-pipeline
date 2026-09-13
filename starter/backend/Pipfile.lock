@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "bd9bc346067e71b2e981c5b9735dcd54cac91080f528807703749e5df6fc9846"
+            "sha256": "f690794b6006d2d56f43ddfa0256944375487be4a8fae5e0bbd277dca37c7ddd"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -57,6 +57,15 @@
             "index": "pypi",
             "markers": "python_version >= '3.9' and python_version < '4.0'",
             "version": "==6.0.5"
+        },
+        "gunicorn": {
+            "hashes": [
+                "sha256:62b864895d9ebff0b2f9867ba04fe811c93121596540830c9c916d0769668447",
+                "sha256:bd249d0b3f7972f7432f0a6b6ff3b3ee2d129f70cd1ff6c09a9dd9e29a2b88e3"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.10'",
+            "version": "==26.2.0"
         },
         "iniconfig": {
             "hashes": [
@@ -270,13 +279,6 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==4.16.0"
-        },
-        "uwsgi": {
-            "hashes": [
-                "sha256:e8f8b350ccc106ff93a65247b9136f529c14bf96b936ac5b264c6ff9d0c76257"
-            ],
-            "index": "pypi",
-            "version": "==2.0.31"
         },
         "werkzeug": {
             "hashes": [
